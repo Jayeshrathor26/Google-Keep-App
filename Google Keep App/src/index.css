@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&family=Noto+Serif+Gujarati:wght@400;700&family=Noto+Serif+Telugu:wght@300&family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+/* header component */
+.header{
+  border: 2px solid black;
+  height: 9rem;
+  color: white;
+  border-color: rgba(243, 228, 12);
+  background-color:rgb(243, 228, 12) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  
+
+}
+img{
+  width: 8;
+  height: 7rem;
+}
+.header p{
+  font-size: 2rem;
+  margin-top: 2rem;
+  display: inline-block;
+  top: auto;
+  position: absolute;
+  
+  font-family: 'Laila', sans-serif;
+}
+
+input{
+  display: block;
+ border: none;
+  outline: none;
+   margin-top: 4rem;
+  margin-left: 54rem;
+  width: 40rem;
+  height: 3rem;
+  border-radius: 0.1rem;
+  border-bottom:none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Laila', sans-serif;
+  border-bottom: none;
+  
+}
+textarea{
+  margin-left: 54rem;
+border: none;
+  height: 20rem;
+  width: 40rem;
+  border-top: none;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: inline;
+ border-radius: 0.2rem;
+ font-family: 'Laila', sans-serif;
+resize: none;
+
+
+}
+button{
+  position: relative;
+ right: 6rem;
+ bottom: -0.5rem;
+  
+ padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid white;
+  color:rgb(243, 228, 12);
+  background-color:  white;
+  font-size: 4rem;
+  border-radius: 10rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+
+}
+button:hover{
+  color: white;
+  background-color:rgb(243, 228, 12) ;
+  border:rgb(243, 228, 12) ;
+}
+.cnote{
+  border: 2px solid black;
+  display: inline-block;
+  position: relative;
+  top: 15rem;
+  left: 10rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 3rem 9rem;
+  border: none;
+  outline: none;
+ margin: 0 5rem;
+ margin: 5rem;
+  
+ font-family: 'Laila', sans-serif;
+}
+.cnote p{
+ font-size: 2rem;
+}
+.cb{
+  position: relative;
+  left: 11rem;
+  bottom: -0.5rem;
+   top: 4rem;
+  padding-left: 1rem;
+   padding-right: 1rem;
+   border: white;
+   color: rgba(250, 209, 6, 0.968);
+   background-color:  white;
+   font-size: 2rem;
+   border-radius: 10rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   font-family: 'Laila', sans-serif;
+}
+.cb:hover{
+  background-color: rgb(243, 228, 12);
+  color:white ;
+  border:  rgb(243, 228, 12);
+
+}
+footer p{
+  position: relative;
+  top: 40rem;
+  margin-left: 60rem;
+  font-size: 1.5rem;
+  color:black;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Laila', sans-serif;
+}
+
+
+/* @media screen and (min-width:900px){
+   .fn{
+    position: relative;
+    right: 40rem;
+   }
+   footer{
+    position: relative;
+   
+    right: 30rem;
+   }
+   button{
+    
+   }
+} */
